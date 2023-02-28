@@ -1,0 +1,21 @@
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cp -r first second
+rm -rf second
+
+Man command gives you the manual for whichever command you want to know more about. Scroll forward 1 line = e. Scroll backward 1 line = y. Forward 1 window = f. Back one window = b. q to quit.
+-l in ls uses a long listing format/more detail.
+-a lists all files and folders even if they are hidden.
+alt left/right
+control + e
+control + a
+alt + delete
+The terminal is an interface to the shell. The shell is what deals with commands, the terminal just let's it interact.
+An absolute path is a path that starts from the root route and gives the whole location for a folder or file.
+A relative path starts at the current location.
+Flags add additional functionality to an exisiting command. -a shows all files and folders in ls and -l  shows additional detail. -r for rm removes directories and their contents recursively
+r will remove directories and their contents recursively. f will force a removal.
